@@ -1,0 +1,17 @@
+body {
+  height: 100vh;
+  display: flexbox;
+  background: linear-gradient(to right top, red, yellow);
+}
+
+h1 {
+  color: yellow;
+  font-family: "Megrim";
+}
+p {
+  background-color: #343335;
+  color: #faee1c;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Special Elite";
+}
