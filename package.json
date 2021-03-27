@@ -4,7 +4,8 @@
   "description": "To Play",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "Rock": "parcel index.html",
+    "start-server": "parcel watch index.html"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "homepage": "https://github.com/Jg-07/superapp-101#readme",
   "keywords": [
     "hi"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "parcel-bundler": "^1.12.5"
+  }
 }
