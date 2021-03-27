@@ -1,0 +1,22 @@
+{
+  "name": "superapp-101",
+  "version": "1.0.0",
+  "description": "To Play",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jg-07/superapp-101.git"
+  },
+  "author": "Jai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jg-07/superapp-101/issues"
+  },
+  "homepage": "https://github.com/Jg-07/superapp-101#readme",
+  "keywords": [
+    "hi"
+  ]
+}
