@@ -1,27 +1,27 @@
 {
-  "name": "superapp-101",
-  "version": "1.0.0",
-  "description": "To Play",
-  "main": "index.js",
-  "scripts": {
-    "Rock": "parcel index.html",
-    "start-server": "parcel watch index.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jg-07/superapp-101.git"
-  },
-  "author": "Jai",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jg-07/superapp-101/issues"
-  },
-  "homepage": "https://github.com/Jg-07/superapp-101#readme",
-  "keywords": [
-    "hi"
-  ],
-  "dependencies": {
-    "bootstrap": "^4.6.0",
-    "parcel-bundler": "^1.12.5"
-  }
+	"name": "superapp-101",
+	"version": "1.0.0",
+	"description": "To Play",
+	"main": "index.js",
+	"scripts": {
+		"dev": "parcel index.html",
+		"build": "parcel build index.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Jg-07/superapp-101.git"
+	},
+	"author": "Jai",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Jg-07/superapp-101/issues"
+	},
+	"homepage": "https://github.com/Jg-07/superapp-101#readme",
+	"keywords": [
+		"hi"
+	],
+	"dependencies": {
+		"bootstrap": "^4.6.0",
+		"parcel-bundler": "^1.12.5"
+	}
 }
