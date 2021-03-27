@@ -1,7 +1,10 @@
 body {
   height: 100vh;
-  display: flexbox;
-  background: linear-gradient(to right top, red, yellow);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  background: linear-gradient(to bottom right, red, yellow);
+  font-size: xx-large;
 }
 
 h1 {
