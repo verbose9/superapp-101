@@ -31,11 +31,11 @@ section.title button {
 section.title button:hover {
 	background-color: rgb(26, 26, 26);
 	transform: translateY(-5px);
-	box-shadow: 0 10px 10px #00000028;
+	box-shadow: 0 10px 8px #00000028;
 }
 section.title button:active {
 	transform: translateY(0px);
-	box-shadow: 0 5px 10px #00000028;
+	box-shadow: 0 5px 3px #00000028;
 }
 section.title span {
 	color: gray;
@@ -54,4 +54,16 @@ h1.title {
 	font-size: 7rem;
 	text-align: center;
 	margin: 2rem 0;
+}
+@media (max-width: 768px) {
+	body {
+		max-width: 100%;
+		margin: 0 1rem;
+	}
+	section.title h1.title {
+		font-size: 4rem;
+	}
+	section.title .watermark {
+		left: 30px !important;
+	}
 }
