@@ -1,0 +1,10 @@
+input,
+button {
+	font-family: inherit;
+}
+
+body {
+	font-family: "GT Walsheim Pro";
+	margin: auto;
+	max-width: 768px;
+}
