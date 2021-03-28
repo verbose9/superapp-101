@@ -2,29 +2,28 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: [ 14.x]
+        node-version: [14.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: Install deps
-      run: npm i
-    - name: Build with parcel
-      run: npm run build
-    - name: Deploy 🚀
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Install deps
+        run: npm i
+      - name: Build with parcel
+        run: npm run build
+      - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0 # ignore that
         with:
           branch: gh-pages # The branch the action should deploy to.
